@@ -26,31 +26,27 @@ We do the following work to establish a ***CAMELYON+ BENCHMARK***
 * [BAIDU-PAN-LINK](https://github.com/lingxitong/CAMELYON_BENCHMARK/edit/main/README.md)
 * [GOOGLE-PAN-LINK](https://github.com/lingxitong/CAMELYON_BENCHMARK/edit/main/README.md)
 ## BASELINE
-* ***MEAN_MIL*** [Attention-based Deep Multiple Instance Learning](https://arxiv.org/abs/1802.04712) ***(ICML 2018)*** 
-* ***MAX_MIL*** [Attention-based Deep Multiple Instance Learning](https://arxiv.org/abs/1802.04712) ***(ICML 2018)*** 
-* ***AB_MIL*** [Attention-based Deep Multiple Instance Learning](https://arxiv.org/abs/1802.04712) ***(ICML 2018)*** 
-* ***TRANS_MIL*** [Transformer based Correlated Multiple Instance Learning for WSI Classification](https://arxiv.org/abs/2106.00908) ***(NeurIPS 2021)***
-* ***DS_MIL*** [Dual-stream MIL Network for WSI Classification with Self-supervised Contrastive Learning](https://arxiv.org/abs/2011.08939) ***(CVPR 2021)***
-* ***CLAM_MIL*** [Data Efficient and Weakly Supervised Computational Pathology on WSI](https://arxiv.org/abs/2004.09666) ***(NAT BIOMED ENG 2021)***
-* ***DTFD_MIL*** [Double-Tier Feature Distillation MIL for Histopathology WSI Classification](https://arxiv.org/abs/2203.12081) ***(CVPR 2022)***
-* ***RRT_MIL*** [Towards Foundation Model-Level Performance in Computational Pathology](https://arxiv.org/abs/2402.17228) ***(CVPR 2024)***
-* ***WIKG_MIL*** [Dynamic Graph Representation with Knowledge-aware Attention for WSI Analysis](https://arxiv.org/abs/2403.07719) ***(CVPR 2024)***
-* ***UPDATING...***
+* MEAN_MIL
+* MAX_MIL
+* AB_MIL [Attention-based Deep Multiple Instance Learning](https://arxiv.org/abs/1802.04712) (ICML 2018)
+* TRANS_MIL [Transformer based Correlated Multiple Instance Learning for WSI Classification](https://arxiv.org/abs/2106.00908) (NeurIPS 2021)
+* DS_MIL [Dual-stream MIL Network for WSI Classification with Self-supervised Contrastive Learning](https://arxiv.org/abs/2011.08939) (CVPR 2021)
+* CLAM_MIL [Data Efficient and Weakly Supervised Computational Pathology on WSI](https://arxiv.org/abs/2004.09666) (NAT BIOMED ENG 2021)
+* DTFD_MIL [Double-Tier Feature Distillation MIL for Histopathology WSI Classification](https://arxiv.org/abs/2203.12081) (CVPR 2022)
+* WIKG_MIL [Dynamic Graph Representation with Knowledge-aware Attention for WSI Analysis](https://arxiv.org/abs/2403.07719) (CVPR 2024)
+* AMD-MIL [Agent Aggregator with Mask Denoise Mechanism for Histopathology Whole Slide Image Analysis](https://dl.acm.org/doi/abs/10.1145/3664647.368142) (ACM-MM 2024)
+* FR-MIL [Distribution Re-calibration based MIL with Transformer for WSI Classification](https://ieeexplore.ieee.org/abstract/document/10640165) (TMI 2024)
+
 
 ## FEATURE-ENCODER
-* ***VIT_S (IMAGENT-PRETRAINED)*** [Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) ***(ICLR 2021)*** 
-* ***PLIP (WSI-Contrastive-Learning)*** [A visual–language model for WSI using medical Twitter](https://www.nature.com/articles/s41591-023-02504-3) ***(NAT MED 2023)***
-* ***UNI (WSI-PRETRAINED)*** [Towards a general-purpose foundation model for computational pathology](https://www.nature.com/articles/s41591-024-02857-3) ***(NAT MED 2024)***
-* ***UPDATING...***
+* R50 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) (CVPR 2016)
+* VIT-S [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929) (ICLR 2021)
+* PLIP [A visual–language foundation model for pathology image analysis using medical Twitter](https://www.nature.com/articles/s41591-023-02504-3) (NAT MED 2023)
+* CONCH [A visual-language foundation model for computational pathology](https://www.nature.com/articles/s41591-024-02856-4) (NAT MED 2024)
+* UNI [Towards a general-purpose foundation model for computational pathology](https://www.nature.com/articles/s41591-024-02857-3) (NAT MED 2024)
+* GIG [A whole-slide foundation model for digital pathology from real-world data](https://www.nature.com/articles/s41586-024-07441-w) (NAT 2024)
 
-  
-## SETTINGS
-* Obtain the patches on 20X Magnification
-* Keep the Hyperparameter settings of original implement
-* Use uniform,balanced dataset-split
-
-
-## RUSULTS
+## BENCHMARK RUSULTS
 ### REFINE-CAMELYON-17 (4 classes)
 #### *VIT_S-METRICS*
 
