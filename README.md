@@ -18,7 +18,7 @@ We do the following work to establish a ***CAMELYON+ BENCHMARK***
 * Use more comprehensive evaluation metrics to assess different methods.
 * In summary, we establish a new **_CAMELYON+ BENCHMARK_**.
 
-## CAMELYON-NEW
+## CAMELYON+
 ### *balanced-dataset-split* 
 * We apply balanced-dataset-split
 * Details will be released soon
