@@ -9,14 +9,14 @@ However, they have the following issues:
 * Different **_MIL_** methods do not have a unified dataset-split and evaluation-metrics on the ***CAMELYON*** dataset
 * To conclude,there is no ***BENCHMARK*** for ***MIL*** methods
 ### *what we do in this work?*
-We do the following work to establish a ***CAMELYON-BENCHMARK***
+We do the following work to establish a ***CAMELYON+ BENCHMARK***
 * Remove some problematic slides.
 * Correct problematic annotations.
-* Merge the **_CAMELYON-16/17_** datasets and add some new slides to organize a larger, more balanced **_CAMELYON-NEW_** dataset.
+* Merge the correct version of**_CAMELYON-16/17_** datasets as the **_CAMELYON+_** dataset.
 * Evaluate mainstream ***MIL*** methods on the **_CAMELYON-NEW_** dataset.
 * Evaluate mainstream feature extractors on the **_CAMELYON-NEW_** dataset.
 * Use more comprehensive evaluation metrics to assess different methods.
-* In summary, we establish a new **_CAMELYON-BENCHMARK_**.
+* In summary, we establish a new **_CAMELYON+ BENCHMARK_**.
 
 ## CAMELYON-NEW
 ### *balanced-dataset-split* 
