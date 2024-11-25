@@ -34,7 +34,7 @@ We do the following work to establish a ***CAMELYON+ BENCHMARK***
 * CLAM_MIL [Data Efficient and Weakly Supervised Computational Pathology on WSI](https://arxiv.org/abs/2004.09666) (NAT BIOMED ENG 2021)
 * DTFD_MIL [Double-Tier Feature Distillation MIL for Histopathology WSI Classification](https://arxiv.org/abs/2203.12081) (CVPR 2022)
 * WIKG_MIL [Dynamic Graph Representation with Knowledge-aware Attention for WSI Analysis](https://arxiv.org/abs/2403.07719) (CVPR 2024)
-* AMD-MIL [Agent Aggregator with Mask Denoise Mechanism for Histopathology Whole Slide Image Analysis](https://dl.acm.org/doi/abs/10.1145/3664647.368142) (ACM-MM 2024)
+* AMD-MIL [Agent Aggregator with Mask Denoise Mechanism for Histopathology WSI Analysis](https://dl.acm.org/doi/abs/10.1145/3664647.368142) (ACM-MM 2024)
 * FR-MIL [Distribution Re-calibration based MIL with Transformer for WSI Classification](https://ieeexplore.ieee.org/abstract/document/10640165) (TMI 2024)
 
 
@@ -46,65 +46,4 @@ We do the following work to establish a ***CAMELYON+ BENCHMARK***
 * UNI [Towards a general-purpose foundation model for computational pathology](https://www.nature.com/articles/s41591-024-02857-3) (NAT MED 2024)
 * GIG [A whole-slide foundation model for digital pathology from real-world data](https://www.nature.com/articles/s41586-024-07441-w) (NAT 2024)
 
-## BENCHMARK RUSULTS
-### REFINE-CAMELYON-17 (4 classes)
-#### *VIT_S-METRICS*
 
-|MIL|PARAMS|ACC|B-ACC|AUC|F1|PRE|
-|:-----:|:-----:|:----:|:------:|:------:|:-------------:|:--------------:|
-|MEAN|mobilenet|3.3M|34.02|10.56|60|60|
-|MAX|mobilenet|3.3M|34.02|10.56|60|60|
-|AB|mobilenet|3.3M|34.02|10.56|60|60|
-|G-AB|mobilenet|3.3M|34.02|10.56|60|60|
-|TRANS|mobilenet|3.3M|34.02|10.56|60|60|
-|DS|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM-SB|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM_MB|mobilenet|3.3M|34.02|10.56|60|60|
-|RRT|mobilenet|3.3M|34.02|10.56|60|60|
-|WIKG|mobilenet|3.3M|34.02|10.56|60|60|
-
-#### *PLIP-METRICS*
-
-|MIL|PARAMS|ACC|B-ACC|AUC|F1|PRE|
-|:-----:|:-----:|:----:|:------:|:------:|:-------------:|:--------------:|
-|MEAN|mobilenet|3.3M|34.02|10.56|60|60|
-|MAX|mobilenet|3.3M|34.02|10.56|60|60|
-|AB|mobilenet|3.3M|34.02|10.56|60|60|
-|G-AB|mobilenet|3.3M|34.02|10.56|60|60|
-|TRANS|mobilenet|3.3M|34.02|10.56|60|60|
-|DS|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM-SB|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM_MB|mobilenet|3.3M|34.02|10.56|60|60|
-|RRT|mobilenet|3.3M|34.02|10.56|60|60|
-|WIKG|mobilenet|3.3M|34.02|10.56|60|60|
-
-#### *UNI-METRICS*
-
-|MIL|PARAMS|ACC|B-ACC|AUC|F1|PRE|
-|:-----:|:-----:|:----:|:------:|:------:|:-------------:|:--------------:|
-|MEAN|mobilenet|3.3M|34.02|10.56|60|60|
-|MAX|mobilenet|3.3M|34.02|10.56|60|60|
-|AB|mobilenet|3.3M|34.02|10.56|60|60|
-|G-AB|mobilenet|3.3M|34.02|10.56|60|60|
-|TRANS|mobilenet|3.3M|34.02|10.56|60|60|
-|DS|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM-SB|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM_MB|mobilenet|3.3M|34.02|10.56|60|60|
-|RRT|mobilenet|3.3M|34.02|10.56|60|60|
-|WIKG|mobilenet|3.3M|34.02|10.56|60|60|
-
-
-#### *RESNET50-METRICS*
-
-|MIL|PARAMS|ACC|B-ACC|AUC|F1|PRE|
-|:-----:|:-----:|:----:|:------:|:------:|:-------------:|:--------------:|
-|MEAN|mobilenet|3.3M|34.02|10.56|60|60|
-|MAX|mobilenet|3.3M|34.02|10.56|60|60|
-|AB|mobilenet|3.3M|34.02|10.56|60|60|
-|G-AB|mobilenet|3.3M|34.02|10.56|60|60|
-|TRANS|mobilenet|3.3M|34.02|10.56|60|60|
-|DS|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM-SB|mobilenet|3.3M|34.02|10.56|60|60|
-|CLAM_MB|mobilenet|3.3M|34.02|10.56|60|60|
-|RRT|mobilenet|3.3M|34.02|10.56|60|60|
-|WIKG|mobilenet|3.3M|34.02|10.56|60|60|
