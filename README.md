@@ -22,7 +22,7 @@ We do the following work to establish a ***CAMELYON+ BENCHMARK***
 ### *arxiv link*
 * [ARXIV](https://arxiv.org/pdf/2411.10752)
 ### *dataset download*
-* [SCIENDB](https://www.scidb.cn/en/detail?dataSetId=cc1f911b75ca4610bd02ac33a51898a9)
+* [SCIENCEDB](https://www.scidb.cn/en/detail?dataSetId=cc1f911b75ca4610bd02ac33a51898a9)
 ### *code available*
 * [MIL_BASELINE](https://github.com/lingxitong/MIL_BASELINE)
 
