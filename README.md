@@ -19,6 +19,8 @@ We do the following work to establish a ***CAMELYON+ BENCHMARK***
 * In summary, we establish a new **_CAMELYON+ BENCHMARK_**.
 
 ## CAMELYON+
+### *arxiv link*
+* [ARXIV](https://arxiv.org/pdf/2411.10752)
 ### *dataset download*
 * [SCIENDB](https://www.scidb.cn/en/detail?dataSetId=cc1f911b75ca4610bd02ac33a51898a9)
 ### *code available*
